@@ -1,3 +1,5 @@
+import { asset } from "@/lib/assets";
+
 export interface TravelRoute {
   id: string;
   title: string;
@@ -21,7 +23,7 @@ export const travelRoutes: TravelRoute[] = [
     subtitle: "Sun, sea, and Mediterranean culture",
     description: "Drive from Barcelona through the French Riviera to the Amalfi Coast. 3 weeks of sun, beaches, and incredible food spanning three of Europe's most beloved countries.",
     duration: "21 days",
-    image: "/hero-greece.jpg",
+    image: asset("hero-greece.jpg"),
     countries: ["Spain", "France", "Italy"],
     difficulty: "Easy",
     bestSeason: "May – October",
@@ -58,7 +60,7 @@ export const travelRoutes: TravelRoute[] = [
     subtitle: "Temples, street food, and tropical paradise",
     description: "Backpack through Thailand, Vietnam, and Cambodia. 30 days of temples, street food, and tropical beaches that will change the way you see the world.",
     duration: "30 days",
-    image: "/asia-temple.jpg",
+    image: asset("asia-temple.jpg"),
     countries: ["Thailand", "Vietnam", "Cambodia"],
     difficulty: "Moderate",
     bestSeason: "November – March",
@@ -97,7 +99,7 @@ export const travelRoutes: TravelRoute[] = [
     subtitle: "Van life along the Atlantic coast",
     description: "Van life along the Atlantic coast from Portugal to Norway. 45 days of wild camping, surfing, and Nordic fjords that redefine the meaning of freedom.",
     duration: "45 days",
-    image: "/hero-camping.jpg",
+    image: asset("hero-camping.jpg"),
     countries: ["Portugal", "Spain", "France", "Netherlands", "Denmark", "Norway"],
     difficulty: "Challenging",
     bestSeason: "June – September",
@@ -136,7 +138,7 @@ export const travelRoutes: TravelRoute[] = [
     subtitle: "The Big Five and beyond",
     description: "Experience the best wildlife viewing on Earth across Kenya and Tanzania. From the Great Migration to mountain gorillas, this is the ultimate African adventure.",
     duration: "18 days",
-    image: "/africa-lion.jpg",
+    image: asset("africa-lion.jpg"),
     countries: ["Kenya", "Tanzania"],
     difficulty: "Moderate",
     bestSeason: "July – October",
@@ -173,7 +175,7 @@ export const travelRoutes: TravelRoute[] = [
     subtitle: "From Patagonia to the Amazon",
     description: "A 28-day journey through the continent's most spectacular landscapes, from the glaciers of Patagonia to the Amazon rainforest and everything in between.",
     duration: "28 days",
-    image: "/hero-desert.jpg",
+    image: asset("hero-desert.jpg"),
     countries: ["Argentina", "Chile", "Peru", "Bolivia"],
     difficulty: "Challenging",
     bestSeason: "October – April",
