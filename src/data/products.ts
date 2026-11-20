@@ -1,3 +1,5 @@
+import { asset } from "@/lib/assets";
+
 export interface Product {
   id: string;
   name: string;
@@ -17,7 +19,7 @@ export const products: Product[] = [
     name: "European Adventures Guide",
     price: 27.50,
     rating: 4.8,
-    image: "/travel-books.jpg",
+    image: asset("travel-books.jpg"),
     description: "Your comprehensive guide to Europe's most incredible destinations. From the fjords of Norway to the islands of Greece, this guide covers 25 countries with detailed itineraries, local tips, and hidden gems that most travelers never discover.",
     features: [
       "25 European countries covered in detail",
@@ -43,7 +45,7 @@ export const products: Product[] = [
     name: "Asia Explorer's Handbook",
     price: 27.50,
     rating: 4.9,
-    image: "/travel-books.jpg",
+    image: asset("travel-books.jpg"),
     description: "Navigate Asia with confidence using our most popular guide. Covering Southeast Asia, Japan, China, India, and more — with practical advice on everything from street food safety to temple etiquette.",
     features: [
       "15 Asian countries with in-depth coverage",
@@ -69,7 +71,7 @@ export const products: Product[] = [
     name: "Complete World Travel Planner",
     price: 24.95,
     rating: 4.7,
-    image: "/travel-books.jpg",
+    image: asset("travel-books.jpg"),
     description: "The ultimate planning companion for any trip, anywhere. This interactive planner helps you organize every aspect of your journey — from initial inspiration to day-by-day scheduling, budgeting, and packing.",
     features: [
       "Interactive trip planning templates",
@@ -95,7 +97,7 @@ export const products: Product[] = [
     name: "Africa Safari Planning Guide",
     price: 29.95,
     rating: 4.9,
-    image: "/africa-lion.jpg",
+    image: asset("africa-lion.jpg"),
     description: "Plan the safari of a lifetime with our expert guide. Covers East and Southern Africa with detailed information on parks, lodges, wildlife seasons, and photography tips.",
     features: [
       "12 African countries and 40+ national parks",
